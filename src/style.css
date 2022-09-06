@@ -1,0 +1,81 @@
+html {
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 40px;
+  height: 50px;
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  color: white;
+}
+
+.navbar-img {
+  max-width: 70px;
+}
+
+.middle {
+  text-align: center;
+  padding-top: 4%;
+}
+
+.form-inputs > input {
+  margin: 30px;
+  padding: 10px 20px;
+  font-size: 40px;
+  border-radius: 15px;
+  border-color: grey;
+  border-style: solid;
+}
+
+.form-btn {
+  color: white;
+  background-color: #a4508b;
+  background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+  width: 52%;
+  padding: 30px 50px;
+  margin: 30px;
+  font-size: 200%;
+  border-radius: 20px;
+  border: none;
+}
+.meme {
+  position: relative;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
